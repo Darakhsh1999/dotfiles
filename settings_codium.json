@@ -1,0 +1,41 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "security.workspace.trust.untrustedFiles": "open",
+    "extensions.ignoreRecommendations": true,
+    "keyboard.dispatch": "keyCode",
+    "python.createEnvironment.trigger": "off",
+    "terminal.integrated.inheritEnv": false,
+    "basedpyright.analysis.typeCheckingMode": "basic",
+    "editor.inlayHints.enabled": "off",
+
+    "vim.leader": "<Space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+
+        {"before": ["<C-p>"],"commands": ["workbench.action.quickOpen"]},
+
+        {"before": ["J"],"after": ["5", "j"]},
+
+        {"before": ["K"],"after": ["5", "k"]},
+        
+        {"before": ["<C-h>"],"after": ["<C-w>", "h"]},
+
+        {"before": ["<C-j>"],"after": ["<C-w>", "j"]},
+
+        {"before": ["<C-k>"],"after": ["<C-w>", "k"]},
+
+        {"before": ["<C-l>"],"after": ["<C-w>", "l"]},
+
+        {"before": ["<Leader>", "n"],"commands": [":tabnew"]},
+
+        {"before": ["<Leader>", "k"],"commands": [":tabnext"]},
+
+        {"before": ["<Leader>", "j"],"commands": [":tabprev"]},
+
+        {"before": ["<Leader>", "o"],"commands": [":tabo"]},
+
+        {"before": ["<Leader>", "/"],"commands": [":noh"]}
+
+    ]
+
+
+}
