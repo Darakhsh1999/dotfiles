@@ -5,8 +5,11 @@
     "keyboard.dispatch": "keyCode",
     "python.createEnvironment.trigger": "off",
     "terminal.integrated.inheritEnv": false,
+    "python.languageServer": "Pylance",
 
     "vim.leader": "<Space>",
+    "vim.gdefault": true,
+    "vim.hlsearch": true,
     "vim.normalModeKeyBindingsNonRecursive": [
 
         {"before": ["<C-p>"],"commands": ["workbench.action.quickOpen"]},
@@ -31,7 +34,7 @@
 
         {"before": ["<Leader>", "o"],"commands": [":tabo"]},
 
-        {"before": ["<Leader>", "/"],"commands": [":noh"]}
+        {"before": ["<Leader>", "x"],"commands": [":noh"]}
 
     ]
 

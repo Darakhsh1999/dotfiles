@@ -16,6 +16,7 @@ vim.opt.tabstop = 4 -- Pressing tab equal 4 spaces (default 8)
 vim.opt.shiftwidth = 4 -- Defines number of spaces used when indenting with > or < command. Also used when autoindent is enabled
 vim.opt.smarttab = true -- Modifies how tab indentation works at start of line
 vim.opt.mouse = "a" -- Enables mouse support in all VIM modes
+vim.opt.cursorline = true -- Highlights currently selected cursor line
 vim.opt.encoding = "UTF-8"
 
 
