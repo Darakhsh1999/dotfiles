@@ -61,6 +61,8 @@ vim.api.nvim_set_keymap('i', '<C-j>', 'coc#pum#visible() ? coc#pum#next(1) : "\\
 -- CTRL+Space refreshes autocomplete
 vim.api.nvim_set_keymap('i', '<C-space>', 'coc#pum#visible() ? coc#pum#next(1) : coc#refresh()', { noremap = true, silent = true, expr = true })
 
+-- pressing gh over a symbol definition brings up its params
+vim.keymap.set('n', 'gh', '<cmd>call CocAction("doHover")<CR>', { silent = true, noremap = true })
 
 -- Unmap middle mouse click
 vim.api.nvim_set_keymap("n", "<MiddleMouse>", "<Nop>", { noremap = true, silent = true })
